@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPopVinyls.NewPopPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,0">
+            <Entry Placeholder="Enter Brand/Universe"/>
+            <Entry Placeholder="Enter Character Name"/>
+            <Entry Placeholder="Enter Pop! Issue Number"/>
+            <Button Text="Add To Collection"
+                    Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
