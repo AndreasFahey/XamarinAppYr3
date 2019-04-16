@@ -18,5 +18,10 @@ namespace MyPopVinyls
         {
             Navigation.PushAsync(new NewPopPage());
         }
+
+        private void ToolbarItem_Activated_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MyCollectionPage());
+        }
     }
 }
