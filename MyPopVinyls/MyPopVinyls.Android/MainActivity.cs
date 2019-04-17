@@ -19,13 +19,8 @@ namespace MyPopVinyls.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
-            string fileName = "pops_db.sqlite";
-            string fileLocation = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            string full_path = Path.Combine(fileLocation, fileName);
-
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App(full_path));
+            LoadApplication(new App());
         }
     }
 }

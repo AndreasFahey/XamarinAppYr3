@@ -4,11 +4,11 @@
              xmlns:local="clr-namespace:MyPopVinyls"
              x:Class="MyPopVinyls.MainPage">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add Pop!"
-                     Activated="ToolbarItem_Activated"/>
-        <ToolbarItem Text="My Pops"
-                     Activated ="ToolbarItem_Activated_1"/>
-    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
 
 </ContentPage>
