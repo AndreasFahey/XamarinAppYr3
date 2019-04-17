@@ -11,7 +11,7 @@ namespace MyPopVinyls
 	{
 		public HomePage ()
 		{
-            this.Title = "POP! DB App";
+            this.Title = "My Pop! Vinyl";
 
             StackLayout stackLayout = new StackLayout();
             Button button = new Button();
@@ -33,6 +33,8 @@ namespace MyPopVinyls
             button.Text = "Delete From Collection";
             button.Clicked += Button_Delete_Clicked;
             stackLayout.Children.Add(button);
+
+            var image = new Image { Source = "pop.png" };
 
             Content = stackLayout;
 
